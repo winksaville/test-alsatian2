@@ -1,6 +1,7 @@
 {
   "scripts": {
-     "test": "alsatian ./test/*.test.js"
+     "pretest": "tsc",
+     "test": "alsatian \"./test/*.spec.js\""
   },
   "devDependencies": {
     "alsatian": "^1.2.1",

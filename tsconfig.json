@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "module": "commonjs",
-        "target": "ES6",
+        "target": "es6",
         "sourceMap": true,
         "allowJs": false,
         "alwaysStrict": true,
@@ -14,8 +14,7 @@
         "declaration": true,
         "experimentalDecorators": true,
         "forceConsistentCasingInFileNames": true,
-        "strictNullChecks": true,
-        "lib": [ "es2015.promise" ]
+        "strictNullChecks": true
     },
     "include": [
       "src/**/*",

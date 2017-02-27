@@ -1,3 +1,3 @@
-export default (a: number, b: number) => {
-  throw new Error('unimplemented');
+export default (a: number, b: number) : number => {
+  return a + b;
 };
